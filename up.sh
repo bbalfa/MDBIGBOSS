@@ -1,1 +1,1 @@
-c&&rm -rf MDBIGBOSS&&git clone https://github.com/eshandiwyan/MDBIGBOSS.git &&cd MDBIGBOSS &&bash install.sh
+cd&&rm -rf MDBIGBOSS&&git clone https://github.com/eshandiwyan/MDBIGBOSS.git &&cd MDBIGBOSS &&bash install.sh
