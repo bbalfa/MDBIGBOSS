@@ -10,7 +10,7 @@ termux-setup-storage
 pkg install python -y
 
 echo -e "\e[034m"  "Installing yt-dlp\n"
-pip install yt-dlp
+pip install yt-dlp -y
 
 echo -e "\e[032m"  "Making the Social media video download Directory to the Vidoes\n"
 mkdir ~/storage/shared/Termux Downloads/
@@ -29,3 +29,4 @@ echo -e "\n"
 echo -e "\e[032m" "Process Complete!"
 echo -e "\e[032m" "Now you can share any Social media video download with Termux and you will be ask to select the quality of your downloaded video and after that,It will be automatically Downloaded. If You will share shorts, it will be download automatically."
 echo -e "\e[033m" "For More Awesome and Useful Tool like this Visit My WhatsApp Channel https://whatsapp.com/channel/0029VafUaD2DeON884lZ620e"
+cd
