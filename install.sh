@@ -4,13 +4,13 @@ pkg update&&pkg upgrade -y
 echo -e "\e[032m" "Requesting acces to storage\n"
 echo -e "\e[032m" "Allow Storage Permission!"
 sleep 2
-termux-setup-storage 
+termux-setup-storage  -y
 
 
 pkg install python -y
 
 echo -e "\e[034m"  "Installing yt-dlp\n"
-pip install yt-dlp -y
+pip install yt-dlp
 
 echo -e "\e[032m"  "Making the Social media video download Directory to the Vidoes\n"
 mkdir ~/storage/shared/Termux Downloads/
