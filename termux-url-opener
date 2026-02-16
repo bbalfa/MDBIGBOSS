@@ -7,7 +7,7 @@
 # SETTINGS THAT YOU CAN CHANGE-----
 
 
-fpath='/data/data/com.termux/files/home/storage/shared/BB SOCIAL DOWNLOADER TERMUX/%(title)s.%(ext)s'
+fpath='/data/data/com.termux/files/home/storage/shared/BB-SOCIAL-DOWNLOADER-TERMUX/%(title)s.%(ext)s'
 
 
 # ----------
@@ -25,19 +25,16 @@ fi
 
 
 echo -e  "════════════════════════════════════════" 
-echo -e  "     BB SOCIAL DOWNLOADER TERMUX  ║"
+echo -e  "   BB SOCIAL DOWNLOADER TERMUX  "
 echo -e  "                                                                                              "
-echo -e  "                                                                                              "
-echo -e  "                          ♚ Author  Info ♚                                 "
-echo -e  "   ♚ Author : BIG BOSS (#bigboss/@bigboss) "                                                                         
-echo -e  "                                                                                                "
-echo -e  "                                                                                                "
-echo -e  "                                                                                                "
+echo -e  "                          ♚ Owner Info ♚                                 "
+echo -e  " ♚ Owner : BIG BOSS (#bigboss/@bigboss) "                                                                         
+echo -e  " ♚ Age        : 19                                                                                       "
 echo -e  "                                                                                              "
 echo -e  "    ⚜️ Media Info ⚜️                                                          "
 echo -e  "                                                                                              "
-echo -e  "   ♚ Name : %(title)s                                                       "
-echo -e  "   ♚ Url : $1                                                                           "
+echo -e  " ♚ Download Folder :  $fpath                                                      "
+echo -e  " ♚ Url : $1                                                                           "
 echo -e  "                                                                                              "
 echo -e  "════════════════════════════════════════"
 echo -e  "╠═▶  [𝗦𝗲𝗹𝗲𝗰𝘁 𝗔 Qulity and Formats]  "
@@ -70,7 +67,8 @@ echo -e  "╠═▶ 20. 8000p (test only) Video"
 echo -e  "╠═▶ A. About"
 echo -e  "╠═▶  E. Exsit"
 echo -e  "╠═▶ Please select the number and (A or E )"
-printf "╚═:➤ \e[0m "
+echo -e  "════════════════════════════════════════"
+    printf "╚═:➤ \e[0m "
 read choice
 
 
